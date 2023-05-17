@@ -1,0 +1,196 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width:100%;
+    height: 700px;
+    background-color: lightgrey;
+    background-image: url('./MEDIA/banner.jpg');
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    
+}
+
+.banner-overlay{
+    width: 100%;
+    height: 800px;
+    background-color: rgba (0, 0, 0, 0.6); 
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+   /* background-color: rgba(0, 0, 0, 0.5);*/
+    color: white;
+
+}
+
+.header-container{
+    width: 80%;
+    height: 100px;
+    /*background-color: red;*/
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.logo{
+    width:15%;
+    height: 100px;
+    /*background-color: yellow;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+
+}
+
+.nav{
+    width:30%;
+    height: 100px;
+    /*background-color: lightblue;*/
+    display: inline-block;
+    margin-left: 54.2%;
+}
+
+.nav-link{
+    height: 100px;
+    width: 24%;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+
+.banner-content{
+
+    width: 50%;
+    /*height: 400px;*/
+   /* background-color: grey;*/
+    color: white;
+    margin-top: 180px ;
+    margin-left: 25%;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.content{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.btn{
+    margin-top: 40px;
+    margin-left: 230px;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.bld{
+    font-weight: 500;
+    color: thistle;
+}
+
+/*css for places*/
+
+.places{
+   /* height: 600px;*/
+   padding-top: 50px;
+   padding-bottom: 50px;
+    width: 100%;
+    background-color: rgba(30, 14, 32, 0.76);
+    background-image: url('./MEDIA/travel.14.jpg');
+    background-size: cover;
+}
+
+.section-title{
+    font-size: 40px;
+    color: thistle;
+}
+
+.places-container{
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: red; */
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.place{
+    width: 22%;
+     /* height: 500px; */
+    background-color: whitesmoke ;
+    display: inline-block;
+    margin-left: 2.2%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image{
+    width: 100%;
+    height: 300px; 
+    overflow: hidden; 
+    /* background-color: lightblue; */
+}
+
+.travel-img{
+    width: 100%;
+}
+
+.image-content{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.place-content{
+    margin-top: 10px;
+
+}
+
+.place-btn{
+    margin-top: 10px;
+    padding: 12px 22px;
+    background-color: thistle;
+    border: 1px solid thistle;
+    border-radius: 5px ;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
